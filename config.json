@@ -1,0 +1,56 @@
+{
+  "physical const": {
+    "g": 9.80665,
+    "k": 1.4,
+    "R": 287
+  },
+  "aerodynamic characteristics": {
+    "delta max": 20,
+    "delta min": -20,
+    "S ref": 0.0380132632,
+    "L ref": 4.62,
+    "H ref": 0,
+    "x cm ref": 2.2
+  },
+  "rocket": {
+    "t 0": 0,
+    "V 0": 250,
+    "m 0": 200,
+    "X 0": 0,
+    "Y 0": 5000,
+    "teta 0": 0,
+    "m k": 80
+  },
+  "settings": {
+    "dt": 0.1,
+    "eps": 0.01,
+    "n half max": 50,
+    "n eiler max": 2000,
+    "n iter max": 5
+  },
+  "Graph": {
+    "Write": "True",
+    "x label size": 12,
+    "y label size": 12,
+    "x label weight": 1000,
+    "y label weight": 1000,
+    "Values": {
+      "1": {
+        "X": "t",
+        "Y": "[V]",
+        "name": "V.png",
+        "tittle": "Профиль скорости",
+        "tittle size": 14,
+        "legend": "True",
+        "color": "[red]",
+        "style": "[-]",
+        "x label": "t, с",
+        "y label": "V, м/с",
+        "min X": 0,
+        "max X": "max",
+        "min Y": 0,
+        "max Y": "max"
+      }
+    }
+  }
+}
